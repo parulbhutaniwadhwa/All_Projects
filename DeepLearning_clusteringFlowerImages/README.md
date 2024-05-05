@@ -1,5 +1,5 @@
-Project: Image Clustering Final Project
-
+Project: Image Clustering Project
+This project takes a dataset of different kinds of flowers and using deep learning models identify clusters of similar types.
 ## Steps to run the project
 
 1. Upload clustering.ipynb file to colab.
