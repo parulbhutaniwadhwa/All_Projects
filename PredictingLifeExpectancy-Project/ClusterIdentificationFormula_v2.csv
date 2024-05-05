@@ -1,0 +1,127 @@
+,age,ClusterName,predicted_age,Diseases,Formula
+0,50,DiseaseKidney,57,Kidney failure,7
+1,50,DiseaseLiver,59,Fatty Liver/cirhossis/Liver failure,9
+2,50,FailureLiver,51,Death,0.6
+3,50,Highhemoglobin,55,blood clots/heart attack/stroke,5
+4,50,Highhemoglobin_DiseaseLiver,53,Liver Cancer,3
+5,40,Highhemoglobin_FailureLiver,40.6,HeartAttack/Death,0.6
+6,50,Highhemoglobin_vitB6 defLiver,60,HeartDisease/Stroke/Depression/Dementia,10
+7,50,HighTriglyceride,65,SkinDisease/HeartDisease,15
+8,35,HighTriglyceride_DiseaseKidney,41,KidneyFailure,6
+9,50,HighTriglyceride_DiseaseLiver,56,Fatty Liver/cirhossis/Liver failure/HeartDisease,6
+10,50,HighTriglyceride_FailureLiver,50.6,HeartAttack/Death,0.6
+11,50,HighTriglyceride_Highhemoglobin,65,KidneyDisease/Diabetes/Thyroid/LiverDisease/Obesity/Heartattack/Stroke,15
+12,25,HighTriglyceride_Highhemoglobin_DiseaseLiver,36,KidneyDisease/Diabetes/Thyroid/Obesity/Heartattack/Stroke,11
+13,25,HighTriglyceride_Highhemoglobin_FailureLiver,25.3,KidneyDisease/Diabetes/Thyroid/Obesity/Heartattack/Stroke/Death,0.3
+14,30,HighTriglyceride_Lowhemoglobin,40,Anemia/Arthritis/enlargedSpleen/Menorrhagia/Cancer,10
+15,35,HighTriglyceride_Lowhemoglobin_DiseaseLiver,38,Anemia/LiverFailure/MultipleOrganFailure,3
+16,50,HighTriglyceride_vitB6 defLiver,60,HeartDisease/Stroke/Depression/Dementia/,10
+17,50,Lowhemoglobin,67,Anemia/Arthritis/enlargedSpleen/Menorrhagia/Cancer,17
+18,40,Lowhemoglobin_DiseaseLiver,48,Anemia/Arthritis/enlargedSpleen/Menorrhagia/Cancer/LiverFailure,8
+19,60,Lowhemoglobin_vitB6 defLiver,70,Anemia/Arthritis/enlargedSpleen/Menorrhagia/Cancer/LiverDisease/HeartDisease/Depression/Dementia/,10
+20,50,PreDiabetes,75,Diabetes/MultipleOrganFailure/Thyroid,25
+21,50,PreDiabetes_DiseaseLiver,62,Diabetes/MultipleOrganFailure/Thyroid/LiverFailure,12
+22,50,PreDiabetes_FailureLiver,50.6,Death,0.6
+23,60,PreDiabetes_Highhemoglobin,70,Diabetes/HeartDisease/Stroke/HighBP/KidneyDisease,10
+24,50,PreDiabetes_HighTriglyceride,70,Diabetes/HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/FattyLiver/NerveDamage/Blindness,20
+25,50,PreDiabetes_HighTriglyceride_DiseaseKidney,60,Diabetes/HeartDisease/Stroke/HighBP/KidneyFailure/Pancreatitis/FattyLiver/NerveDamage/Blindness,10
+26,50,PreDiabetes_HighTriglyceride_DiseaseLiver,60,Diabetes/HeartDisease/Stroke/HighBP/KidneyFailure/Pancreatitis/LiverFailure/NerveDamage/Blindness,10
+27,50,PreDiabetes_HighTriglyceride_FailureLiver,50.3,Death,0.3
+28,50,PreDiabetes_HighTriglyceride_Highhemoglobin,65,Diabetes/HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/FattyLiver/NerveDamage/Blindness,15
+29,40,PreDiabetes_HighTriglyceride_Highhemoglobin_DiseaseLiver,48,Diabetes/HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/LiverFailure/NerveDamage/Blindness,8
+30,35,PreDiabetes_HighTriglyceride_Highhemoglobin_FailureLiver,35.3,Death,0.3
+31,50,PreDiabetes_Lowhemoglobin,62,Diabetes/HeartDisease/Stroke/HighBP/KidneyDisease/LiverDisease/NerveDamage/Blindness/Infections,12
+32,55,PreDiabetes_vitB6 defLiver,65,Anemia/LiverDisease/HeartDisease/Diabetes/skinDiseases,10
+33,50,vitB6 defLiver,75,seizures/Kidney Stones/Depression/Skin Disorders,25
+34,50,YesDiabetes,68,MultipleOrganDiseases,18
+35,50,YesDiabetes_DiseaseLiver,60,Liverfailure/MultipleOrganDamage,10
+36,50,YesDiabetes_FailureLiver,50.6,Death/HeartAttack,0.6
+37,50,YesDiabetes_Highhemoglobin,59,HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/LiverDisease/NerveDamage/Blindness,9
+38,50,YesDiabetes_Highhemoglobin_DiseaseLiver,56,HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/LiverFailure/NerveDamage/Blindness,6
+39,50,YesDiabetes_HighTriglyceride,68,HeartDisease/Stroke/HighBP/KidneyFailure/Pancreatitis/FattyLiver/NerveDamage/Blindness,18
+40,50,YesDiabetes_HighTriglyceride_DiseaseLiver,54,HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/LiverFailure/NerveDamage/Blindness,4
+41,50,YesDiabetes_HighTriglyceride_FailureLiver,50.3,HeartAttack/Death,0.3
+42,50,YesDiabetes_HighTriglyceride_Highhemoglobin,61,HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/FattyLiver/NerveDamage/Blindness,11
+43,50,YesDiabetes_HighTriglyceride_Highhemoglobin_DiseaseLiver,56,HeartDisease/Stroke/HighBP/KidneyDisease/Pancreatitis/LiverFailure/NerveDamage/Blindness,6
+44,45,YesDiabetes_HighTriglyceride_Lowhemoglobin,52,Cancer/HeartDisease/OrganFailure,7
+45,50,YesDiabetes_HighTriglyceride_vitB6 defLiver,58,Anemia/LiverDisease/HeartDisease/skinDiseases,8
+46,50,YesDiabetes_Lowhemoglobin,60,HeartDisease/Stroke/HighBP/KidneyDisease/LiverDisease/NerveDamage/Blindness/Infections,10
+47,50,YesDiabetes_vitB6 defLiver,63,Anemia/LiverDisease/HeartDisease/skinDiseases,13
+0,50,PreDiabetes_HighTriglyceride_Lowhemoglobin,54,Diabetes/HeartDisease/Anemia/Heartattack/KidneyDisease/Blindness/NerveDamage/LiverDisease,4
+1,50,YesDiabetes_Highhemoglobin_vitB6 defLiver,54,CardiovascularDisease/NerveDamage/KidneyDisease/Blindness/LiverCancer/Infections/Depression,4
+2,50,PreDiabetes_Lowhemoglobin_vitB6 defLiver,54,Diabetes/Anemia/HeartDisease/KidneyDisease/Blindness/LiverCancer/Depression,4
+3,50,PreDiabetes_Highhemoglobin_DiseaseLiver,55,Diabetes/CardiovascularDisease/LiverCancer/Blindness,5
+4,50,PreDiabetes_HighTriglyceride_Highhemoglobin_FailureKidney,50.3,Diabetes/CardiovascularDisease/Death/Blindness/PeripheralArterialDisease/NerveDamage/Infections,0.3
+5,50,YesDiabetes_DiseaseKidney,55,CardiovascularDisease/HighBP/KidneyFailure/NerveDamage/Blindness/PeripheralArterialDisease/Infections,5
+6,50,PreDiabetes_HighTriglyceride_vitB6 defLiver,54,Diabetes/CardiovascularDisease/LiverDisease/Depression/PeripheralArterialDisease/Blindness,4
+7,50,HighTriglyceride_Highhemoglobin_DiseaseKidney,54,CardiovascularDisease/KidneyFailure/NerveDamage/Blindness/PeripheralArterialDisease/Infections,4
+8,50,YesDiabetes_HighTriglyceride_Highhemoglobin_FailureLiver,50.3,CardiovascularDisease/KidneyDisease/NerveDamage/Blindness/PeripheralArterialDisease/Death,0.3
+9,50,HighTriglyceride_Lowhemoglobin_FailureKidney,50.3,CardiovascularDisease/Death/NerveDamage/PeripheralArterialDisease/Infections,0.3
+10,50,FailureKidney,50.3,CardiovascularDisease/Anemia/MineralDisorders/BoneDisorders/FluidOverload/ElectrolyteImbalances/MetabolicAcidosis/Infections/HighBP/Death,0.3
+11,50,PreDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseLiver,53.5,Diabetes/CardiovascularDisease/LiverFailure/Anemia/PeripheralArterialDisease/NerveDamage/Blindness,3.5
+12,50,PreDiabetes_DiseaseKidney,55,Diabetes/CardiovascularDisease/HighBP/NerveDamage/PeripheralArterialDisease/Blindness/KidneyFailure,5
+13,50,PreDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseKidney_DiseaseLiver,52,Diabetes/CardiovascularDisease/HighBP/NerveDamage/LiverFailure/KidneyFailure/PeripheralArterialDisease/Blindness,2
+14,50,YesDiabetes_HighTriglyceride_DiseaseKidney,53,CardiovascularDisease/HighBp/NerveDamage/Blindness/PeripheralArterialDisease/KidneyFailure,3
+15,50,HighTriglyceride_Lowhemoglobin_vitB6 defLiver,56,CardiovascularDisease/Anemia/Depression/LiverDisease,6
+16,50,YesDiabetes_Lowhemoglobin_FailureLiver,50.3,Diabetes/Anemia/Death/Infections/CardiovascularDisease,0.3
+17,50,Highhemoglobin_DiseaseKidney,55,CardiovascularDisease/HighBP/Thrombosis/Polycythemia/KidneyFailure/PeripheralArterialDisease/Anemia,5
+18,50,HighTriglyceride_Highhemoglobin_FailureKidney_vitB6 defLiver,50.3,CardiovascularDisease/Death/Anemia/NerveDamange/LiverDisease/Infections/Depression,0.3
+19,50,YesDiabetes_HighTriglyceride_FailureKidney,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/PeripheralArterialDisease/Death,0.3
+20,50,HighTriglyceride_DiseaseKidney_FailureLiver,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/LiverDisease/Death,0.3
+21,50,YesDiabetes_Highhemoglobin_DiseaseKidney,53,CardiovascularDisease/HighBP/NerveDamage/Blindness/PeripheralArterialDisease/KidneyFailure,3
+22,50,YesDiabetes_Lowhemoglobin_FailureKidney,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/PeripheralArterialDisease/Death,0.3
+23,50,PreDiabetes_Lowhemoglobin_FailureLiver,50.3,Diabetes/Anemia/Death/CardiovascularDisease/PeriphericalArterialDisease/HighBP,0.3
+24,50,YesDiabetes_Lowhemoglobin_DiseaseLiver,53,CardiovascularDisease/Anemia/LiverFailure/NerveDamage/Blindness/HighBP,3
+25,50,PreDiabetes_Highhemoglobin_FailureLiver,50.3,Diabetes/CardiovascularDisease/Death/NerveDamage/PeriphericalArterialDisease/HighBP,0.3
+26,50,YesDiabetes_HighTriglyceride_Lowhemoglobin_FailureLiver,50.3,CardiovascularDisease/Anemia/Death/NerveDamage/Blindness/HighBP,0.3
+27,50,HighTriglyceride_Lowhemoglobin_FailureLiver,50.3,CardiovascularDisease/Anemia/Death/NerveDamage/HighBP,0.3
+28,50,HighTriglyceride_FailureKidney,50.3,CardiovascularDisease/HighBP/PeriphericalArterialDisease/Death,0.3
+29,50,YesDiabetes_HighTriglyceride_Highhemoglobin_DiseaseKidney,52,CardiovascularDisease/HighBP/NerveDamage/Blindness/PeripheralArterialDisease/KidneyFailure,2
+30,50,HighTriglyceride_DiseaseKidney_DiseaseLiver,52,CardiovascularDisease/HighBP/NerveDamage/KidneyFailure/LiverFailure,2
+31,50,HighTriglyceride_Highhemoglobin_vitB6 defLiver,56,CardiovascularDisease/LiverDisease/NerveDamage/Anemia/HighBP/Blindness,6
+32,50,PreDiabetes_HighTriglyceride_FailureKidney,50.3,Diabetes/CardiovascularDisease/HighBP/NerveDamage/Death,0.3
+33,50,HighTriglyceride_Highhemoglobin_FailureKidney,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/Death,0.3
+34,50,YesDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseKidney,53,CardiovascularDisease/HighBP/NerveDamage/Blindness/KidneyFailure,3
+35,50,PreDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseKidney_vitB6 defLiver,53,Diabetes/CardiovascularDisease/HighBP/NerveDamage/KidneyFailure/Blindness/LiverDisease,3
+36,50,PreDiabetes_HighTriglyceride_Highhemoglobin_DiseaseKidney,53,CardiovascularDisease/HighBP/NerveDamage/Blindness/KidneyFailure,3
+37,50,DiseaseKidney_DiseaseLiver,52,KidneyFailure/LiverFailure,2
+38,50,YesDiabetes_HighTriglyceride_Highhemoglobin_DiseaseKidney_DiseaseLiver,51.5,CardiovascularDisease/HighBP/NerveDamage/Blindness/KidneyFailure/LiverFailure,1.5
+39,50,Lowhemoglobin_DiseaseKidney,55,Anemia/KidneyFailure,5
+40,50,YesDiabetes_DiseaseKidney_FailureLiver,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/KidneyFailure/Death,0.3
+41,50,FailureKidney_DiseaseLiver,50.3,Death/LiverFailure,0.3
+42,50,Lowhemoglobin_DiseaseKidney_DiseaseLiver,53,Anemia/KidneyFailure/LiverFailure,3
+43,50,DiseaseKidney_vitB6 defLiver,54.5,KidneyFailure/LiverFailure,4.5
+44,50,Lowhemoglobin_FailureKidney_vitB6 defLiver,50.3,Death/Anemia,0.3
+45,50,HighTriglyceride_Lowhemoglobin_DiseaseKidney,54,KidneyFailure/Anemia/CardiovascularDisease,4
+46,50,Lowhemoglobin_DiseaseKidney_FailureLiver,50.3,KidneyFailure/Death/Anemia,0.3
+47,50,HighTriglyceride_Lowhemoglobin_DiseaseKidney_DiseaseLiver,53.5,CardiovascularDisease/KidneyFailure/LiverFailure/Anemia,3.5
+48,50,PreDiabetes_Lowhemoglobin_DiseaseKidney,55,Anemia/Diabetes/KidneyFailure/CardiovascularDisease,5
+49,50,Highhemoglobin_FailureKidney,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/Death,0.3
+50,50,PreDiabetes_Lowhemoglobin_DiseaseLiver,55,Diabetes/Anemia/LiverDisease/CardiovascularDisease,5
+51,50,PreDiabetes_HighTriglyceride_Lowhemoglobin_FailureLiver,50.3,Diabetes/Anemia/Death/CardiovascularDisease,0.3
+52,50,Lowhemoglobin_FailureLiver,50.3,Death/Anemia/CardiovascularDisease,0.3
+53,50,YesDiabetes_Lowhemoglobin_DiseaseKidney,55,Anemia/KidenyFailure/CardiovascularDisease/HighBP/NerveDamge,5
+54,50,HighTriglyceride_FailureKidney_DiseaseLiver,50.3,CardiovascularDisease/HighBP/LiverFailure/NerveDamage/Death,0.3
+55,50,PreDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseKidney,54,CardiovascularDisease/KidneyFailure/Diabetes/Anemia,4
+56,50,YesDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseKidney_FailureLiver,50.3,CardiovascularDisease/HighBP/NerveDamage/Blindness/KidneyFailure/Death,0.3
+57,50,Lowhemoglobin_FailureKidney,50.3,CardiovascularDisease/Anemia/Death,0.3
+58,50,PreDiabetes_Highhemoglobin_vitB6 defLiver,57,Diabetes/SkinDiseases/NerveDamage/Infections,7
+59,50,PreDiabetes_HighTriglyceride_DiseaseKidney_DiseaseLiver,52.5,CardiovascularDisease/KidneyFailure/Diabetes/LiverFailure,2.5
+60,50,HighTriglyceride_Highhemoglobin_DiseaseKidney_DiseaseLiver,55,CardiovascularDisease/KidneyFailure/LiverFailure,5
+61,50,PreDiabetes_HighTriglyceride_DiseaseKidney_vitB6 defLiver,54.5,CardiovascularDisease/KidneyFailure/Diabetes/SkinDisease/NerveDisease,4.5
+62,50,YesDiabetes_Highhemoglobin_FailureLiver,50.3,CardiovascularDisease/NerveDamage/Death,0.3
+63,50,PreDiabetes_HighTriglyceride_Highhemoglobin_vitB6 defLiver,56,CardiovascularDisease/Diabetes/SkinDiseases/NerveDisease/LiverFailure,6
+64,50,YesDiabetes_FailureKidney,50.3,CardiovascularDisease/NerveDamage/HighBP/Death,0.3
+65,50,YesDiabetes_HighTriglyceride_Lowhemoglobin_DiseaseLiver,53.5,Liverfailure/CardiovascularDisease/NerveDamage/Anemia,3.5
+66,50,YesDiabetes_Lowhemoglobin_vitB6 defLiver,55,NerveDamage/Anemia/LiverFailure/SkinDisease,5
+67,50,HighTriglyceride_DiseaseKidney_vitB6 defLiver,55,Cardiovascular Disease/KidneyFailure/SkinDisease,5
+68,50,PreDiabetes_Highhemoglobin_DiseaseKidney,54,Diabetes/CardiovascularDisease/KidneyFailure,4
+69,50,PreDiabetes_DiseaseKidney_DiseaseLiver,53.5,KidneyFailure/LiverFailure/Diabetes,3.5
+70,50,Lowhemoglobin_FailureKidney_DiseaseLiver,50.3,LiverFailure/Anemia/Death,0.3
+71,50,Highhemoglobin_DiseaseKidney_DiseaseLiver,54,CardiovascularDisease/KidneyFailure/LiverFailure,4
+72,50,YesDiabetes_HighTriglyceride_DiseaseKidney_DiseaseLiver,51.5,CardiovascularDisease/KidneyFailure/LiverFailure,1.5
+73,50,HighTriglyceride_Lowhemoglobin_FailureKidney_DiseaseLiver,50.3,CardiovascularDisease/LiverFailure/Death/Anemia,0.3
+74,50,HighTriglyceride_Lowhemoglobin_DiseaseKidney_FailureLiver,50.3,KidneyFailure/Death/CardiovascularDisease/Anemia,0.3
+75,50,YesDiabetes_DiseaseKidney_vitB6 defLiver,53,LiverFailure/KidneyFailure/NerveDamage/SkinDisease,3
+76,50,YesDiabetes_Lowhemoglobin_DiseaseKidney_vitB6 defLiver,52.5,Anemia/KidneyFailure/NerveDamage/SkinDisease,2.5
+77,50,HighTriglyceride_Lowhemoglobin_DiseaseKidney_vitB6 defLiver,52.5,CardiovascularDisease/Anemia/KidneyFailure/SkinDisease,2.5
